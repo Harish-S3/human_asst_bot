@@ -86,26 +86,19 @@
             "I'm here to help! Please ask your question again or let me know how I can assist you better."
         ]
     },
-        {
-            "tag": "help",
-            "patterns": [
-                "Help",
-                "What can you do?",
-                "List functionalities",
-                "What can I ask you?",
-                "Show me commands"
-            ],
-            "responses": [
-                "I can assist with various aspects of remote work and productivity. Here are the topics I can help with:",
-                "- **Time Management**: Get tips and strategies for managing your time effectively. Learn how to prioritize tasks, set deadlines, and create efficient schedules.",
-                "- **Work-Life Balance**: Receive advice on maintaining a healthy balance between work and personal life. Discover methods to set boundaries, manage stress, and make time for yourself and your loved ones.",
-                "- **Distraction Management**: Explore techniques for minimizing and managing distractions while working remotely. Find out how to create a focused work environment and maintain concentration.",
-                "- **Productivity Tools**: Get recommendations for tools and software that can boost your productivity. Learn about apps for task management, time tracking, and project collaboration.",
-                "- **Remote Team Collaboration**: Discover best practices for effective communication and collaboration with remote teams. Understand how to use collaboration tools, conduct productive meetings, and build strong virtual teams.",
-                "- **Setting Goals**: Receive guidance on setting and achieving your work and personal goals. Learn about goal-setting frameworks, tracking progress, and staying motivated.",
-                "- **Work Environment**: Get tips for creating and optimizing a productive remote work environment. Find advice on setting up your workspace, ergonomics, and creating a productive atmosphere.",
-                "If you need help with any of these topics, just let me know!"
-            ]
-        }
+    {
+        "tag": "help",
+        "patterns": [
+            "Help",
+            "What can you do?",
+            "List functionalities",
+            "What can I ask you?",
+            "Show me commands"
+        ],
+        "responses": [
+            "I can assist with various aspects of remote work and productivity. Here are the topics I can help with:\n\n- **Time Management**: Strategies for managing your time effectively, including prioritization, scheduling, and setting deadlines.\n- **Work-Life Balance**: Advice on maintaining a healthy balance between work and personal life, managing stress, and setting boundaries.\n- **Distraction Management**: Techniques for minimizing and managing distractions while working remotely, and creating a focused work environment.\n- **Productivity Tools**: Recommendations for tools and software to enhance your productivity, including task management, time tracking, and collaboration apps.\n- **Remote Team Collaboration**: Best practices for effective communication and collaboration with remote teams, including using collaboration tools and conducting productive meetings.\n- **Setting Goals**: Guidance on setting and achieving work and personal goals, tracking progress, and staying motivated.\n- **Work Environment**: Tips for creating and optimizing a productive remote work environment, including workspace setup and ergonomics.\n\nIf you need help with any of these topics, just let me know!"
+        ]
+    }
+    
         
 ]
