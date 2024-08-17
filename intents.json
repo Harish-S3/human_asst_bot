@@ -1,0 +1,75 @@
+[
+  {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "How are you?", "Hey", "Good morning", "Good afternoon", "Good evening"],
+      "responses": [
+          "Hi there! Use the 'help' command to view my functionalities."
+       
+      ]
+  },
+  {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Talk to you later", "Farewell"],
+      "responses": ["Goodbye! Have a great day!", "See you later!", "Talk to you soon!", "Farewell!"]
+  },
+  {
+      "tag": "product_inquiry",
+      "patterns": ["Tell me about your products", "What products do you offer?", "I want to know more about your products", "Show me your products"],
+      "responses": ["We offer a variety of products. Can you specify which product you're interested in?", "Our products include electronics, clothing, and accessories. What would you like to know more about?"]
+  },
+  {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Check my order status", "I want to track my order", "Track my order"],
+      "responses": ["Please provide your order number, and I'll check the status for you.", "You can track your order using the tracking number we provided. If you need help, just let me know."]
+  },
+  {
+      "tag": "refund_policy",
+      "patterns": ["What is your refund policy?", "How do I request a refund?", "Can I get a refund for my purchase?", "Tell me about refunds"],
+      "responses": ["Our refund policy allows you to return items within 30 days of receipt. For more details, please visit our website.", "To request a refund, please contact our support team with your order details."]
+  },
+  {
+      "tag": "technical_support",
+      "patterns": ["I need technical support", "Help with a technical issue", "Technical assistance required", "I have a technical problem"],
+      "responses": ["Please describe the technical issue you're facing, and I'll do my best to help you.", "You can contact our technical support team at support@example.com for immediate assistance."]
+  },
+  {
+      "tag": "account_help",
+      "patterns": ["Help with my account", "I have a question about my account", "Account assistance", "Trouble with my account"],
+      "responses": ["For help with your account, please provide more details about the issue you're facing, and I'll assist you accordingly.", "You can reset your password or update account details by visiting our account settings page."]
+  },
+  {
+      "tag": "shipping_info",
+      "patterns": ["What are your shipping options?", "How long does shipping take?", "Shipping information", "Tell me about shipping"],
+      "responses": ["We offer standard and expedited shipping options. Shipping times vary depending on your location. For more details, visit our shipping policy page.", "Shipping usually takes 3-5 business days. Expedited options are available for faster delivery."]
+  },
+  {
+      "tag": "store_hours",
+      "patterns": ["What are your store hours?", "When are you open?", "Store operating hours", "Business hours"],
+      "responses": ["Our store is open from 9 AM to 9 PM, Monday through Saturday, and from 10 AM to 6 PM on Sundays.", "We are open daily from 9 AM to 9 PM, except for public holidays."]
+  },
+  {
+      "tag": "contact_info",
+      "patterns": ["How can I contact you?", "What is your contact information?", "Contact details", "How do I get in touch?"],
+      "responses": ["You can reach us at contact@example.com or call us at (123) 456-7890. Our customer service team is here to help.", "For inquiries, please email us at support@example.com or use our contact form on the website."]
+  },
+  {
+      "tag": "privacy_policy",
+      "patterns": ["What is your privacy policy?", "Tell me about your privacy policy", "Privacy policy details", "How do you protect my data?"],
+      "responses": ["Our privacy policy outlines how we collect, use, and protect your personal information. You can review it on our website under the 'Privacy Policy' section.", "We are committed to safeguarding your personal information. Please check our privacy policy for details on data protection."]
+  },
+  {
+      "tag": "feedback",
+      "patterns": ["I want to leave feedback", "Give feedback", "Provide feedback", "How do I give feedback?"],
+      "responses": ["We value your feedback! Please share your thoughts or suggestions, and we'll use them to improve our services.", "You can leave feedback by contacting us via email or filling out the feedback form on our website."]
+  },
+  {
+      "tag": "help",
+      "patterns": ["Help", "What can you do?", "List functionalities", "What can I ask you?", "Show me commands"],
+      "responses": ["I can assist with various tasks such as answering product inquiries, checking order status, processing refunds, providing technical support, and more. Just let me know what you need help with!", "You can ask me about our products, order status, refund policy, technical support, and more. For a list of commands, type 'help'."]
+  },
+  {
+      "tag": "fallback",
+      "patterns": ["", "I don't understand", "Can you help?", "What?", "Sorry, I didn't get that"],
+      "responses": ["Sorry, I didn't understand that. Can you please rephrase?", "I'm not sure how to respond to that. Can you provide more details?", "I'm here to help! Please ask something else or use the 'help' command."]
+  }
+]
