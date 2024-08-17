@@ -16,7 +16,7 @@ def app():
     st.markdown("""
     <div class="container-fluid">
         <div class="header-container text-center">
-            <h1 class="header">AI Chatbot</h1>
+            <h1 class="header">Remote work Productivity Chatbot</h1>
         </div>
     </div>
     """, unsafe_allow_html=True)
