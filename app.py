@@ -2,7 +2,7 @@ import streamlit as st
 from chatbot_model import chatbot
 
 def app():
-    st.set_page_config(page_title="AI Supportbot", page_icon="🤖", layout="wide")
+    st.set_page_config(page_title="Remote work productivity bot", page_icon="🤖", layout="wide")
 
     # Load external CSS for styling
     st.markdown(

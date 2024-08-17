@@ -1,75 +1,111 @@
 [
-  {
-      "tag": "greeting",
-      "patterns": ["Hello", "Hi", "How are you?", "Hey", "Good morning", "Good afternoon", "Good evening"],
-      "responses": [
-          "Hi there! Use the 'help' command to view my functionalities."
-       
-      ]
-  },
-  {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye", "Talk to you later", "Farewell"],
-      "responses": ["Goodbye! Have a great day!", "See you later!", "Talk to you soon!", "Farewell!"]
-  },
-  {
-      "tag": "product_inquiry",
-      "patterns": ["Tell me about your products", "What products do you offer?", "I want to know more about your products", "Show me your products"],
-      "responses": ["We offer a variety of products. Can you specify which product you're interested in?", "Our products include electronics, clothing, and accessories. What would you like to know more about?"]
-  },
-  {
-      "tag": "order_status",
-      "patterns": ["Where is my order?", "Check my order status", "I want to track my order", "Track my order"],
-      "responses": ["Please provide your order number, and I'll check the status for you.", "You can track your order using the tracking number we provided. If you need help, just let me know."]
-  },
-  {
-      "tag": "refund_policy",
-      "patterns": ["What is your refund policy?", "How do I request a refund?", "Can I get a refund for my purchase?", "Tell me about refunds"],
-      "responses": ["Our refund policy allows you to return items within 30 days of receipt. For more details, please visit our website.", "To request a refund, please contact our support team with your order details."]
-  },
-  {
-      "tag": "technical_support",
-      "patterns": ["I need technical support", "Help with a technical issue", "Technical assistance required", "I have a technical problem"],
-      "responses": ["Please describe the technical issue you're facing, and I'll do my best to help you.", "You can contact our technical support team at support@example.com for immediate assistance."]
-  },
-  {
-      "tag": "account_help",
-      "patterns": ["Help with my account", "I have a question about my account", "Account assistance", "Trouble with my account"],
-      "responses": ["For help with your account, please provide more details about the issue you're facing, and I'll assist you accordingly.", "You can reset your password or update account details by visiting our account settings page."]
-  },
-  {
-      "tag": "shipping_info",
-      "patterns": ["What are your shipping options?", "How long does shipping take?", "Shipping information", "Tell me about shipping"],
-      "responses": ["We offer standard and expedited shipping options. Shipping times vary depending on your location. For more details, visit our shipping policy page.", "Shipping usually takes 3-5 business days. Expedited options are available for faster delivery."]
-  },
-  {
-      "tag": "store_hours",
-      "patterns": ["What are your store hours?", "When are you open?", "Store operating hours", "Business hours"],
-      "responses": ["Our store is open from 9 AM to 9 PM, Monday through Saturday, and from 10 AM to 6 PM on Sundays.", "We are open daily from 9 AM to 9 PM, except for public holidays."]
-  },
-  {
-      "tag": "contact_info",
-      "patterns": ["How can I contact you?", "What is your contact information?", "Contact details", "How do I get in touch?"],
-      "responses": ["You can reach us at contact@example.com or call us at (123) 456-7890. Our customer service team is here to help.", "For inquiries, please email us at support@example.com or use our contact form on the website."]
-  },
-  {
-      "tag": "privacy_policy",
-      "patterns": ["What is your privacy policy?", "Tell me about your privacy policy", "Privacy policy details", "How do you protect my data?"],
-      "responses": ["Our privacy policy outlines how we collect, use, and protect your personal information. You can review it on our website under the 'Privacy Policy' section.", "We are committed to safeguarding your personal information. Please check our privacy policy for details on data protection."]
-  },
-  {
-      "tag": "feedback",
-      "patterns": ["I want to leave feedback", "Give feedback", "Provide feedback", "How do I give feedback?"],
-      "responses": ["We value your feedback! Please share your thoughts or suggestions, and we'll use them to improve our services.", "You can leave feedback by contacting us via email or filling out the feedback form on our website."]
-  },
-  {
-      "tag": "help",
-      "patterns": ["Help", "What can you do?", "List functionalities", "What can I ask you?", "Show me commands"],
-      "responses": ["I can assist with various tasks such as answering product inquiries, checking order status, processing refunds, providing technical support, and more. Just let me know what you need help with!", "You can ask me about our products, order status, refund policy, technical support, and more. For a list of commands, type 'help'."]
-  },
-  {
-      "tag": "fallback",
-      "patterns": ["", "I don't understand", "Can you help?", "What?", "Sorry, I didn't get that"],
-      "responses": ["Sorry, I didn't understand that. Can you please rephrase?", "I'm not sure how to respond to that. Can you provide more details?", "I'm here to help! Please ask something else or use the 'help' command."]
-  }
+    {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "How are you?", "Hey", "Good morning", "Good afternoon", "Good evening"],
+        "responses": [
+            "Hello! How can I assist you with your remote work productivity today?"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Talk to you later", "Farewell"],
+        "responses": [
+            "Goodbye! Have a productive day and feel free to reach out if you need more assistance.",
+            "See you later! Don't hesitate to ask for help with remote work anytime."
+        ]
+    },
+    {
+        "tag": "time_management",
+        "patterns": ["How can I manage my time better?", "Tips for time management", "Help with time management", "How to improve time management"],
+        "responses": [
+            "To manage your time better, try using time-blocking techniques, setting clear priorities, and avoiding multitasking. Tools like calendars and to-do lists can also help.",
+            "Improving time management can involve creating a schedule, setting goals, and using productivity apps. Let me know if you need more specific strategies or tools."
+        ]
+    },
+    {
+        "tag": "distraction_management",
+        "patterns": ["How can I reduce distractions?", "Tips for managing distractions", "Help with staying focused", "How to avoid distractions"],
+        "responses": [
+            "To reduce distractions, create a dedicated workspace, use noise-cancelling headphones, and set specific times for checking emails or messages. Try also using apps that block distracting sites.",
+            "Managing distractions involves setting boundaries, using focus techniques like the Pomodoro Technique, and minimizing interruptions. Let me know if you need more tailored advice."
+        ]
+    },
+    {
+        "tag": "productivity_tools",
+        "patterns": ["What are the best productivity tools?", "Recommend productivity tools", "Help with productivity apps", "Best tools for remote work"],
+        "responses": [
+            "Some popular productivity tools include Trello, Asana, Slack, and Notion. These tools can help with project management, team communication, and task tracking.",
+            "For remote work, consider using tools like Microsoft Teams for communication, Trello or Asana for project management, and Evernote for note-taking. Let me know if you need specific recommendations."
+        ]
+    },
+    {
+        "tag": "work_life_balance",
+        "patterns": ["How can I maintain work-life balance?", "Tips for work-life balance", "Help with balancing work and personal life", "How to improve work-life balance"],
+        "responses": [
+            "Maintaining work-life balance involves setting clear boundaries between work and personal time, scheduling regular breaks, and making time for hobbies and family.",
+            "To improve work-life balance, try establishing a routine, setting work hours, and ensuring you take time off to relax and recharge. Let me know if you need more personalized advice."
+        ]
+    },
+    {
+        "tag": "remote_team_collaboration",
+        "patterns": ["How can I collaborate effectively with my remote team?", "Tips for remote team collaboration", "Help with remote teamwork", "How to improve team collaboration remotely"],
+        "responses": [
+            "Effective remote team collaboration involves using tools like Slack or Microsoft Teams for communication, scheduling regular check-ins, and setting clear goals and expectations.",
+            "To enhance remote team collaboration, use collaborative tools like Google Workspace, hold regular virtual meetings, and establish clear communication protocols. Let me know if you need more strategies."
+        ]
+    },
+    {
+        "tag": "setting_goals",
+        "patterns": ["How can I set effective goals?", "Tips for goal setting", "Help with setting work goals", "How to set and achieve goals"],
+        "responses": [
+            "Setting effective goals involves making them SMART (Specific, Measurable, Achievable, Relevant, Time-bound) and regularly reviewing your progress.",
+            "To set and achieve goals, define what you want to accomplish, break it into smaller tasks, and track your progress. Regularly review and adjust your goals as needed."
+        ]
+    },
+    {
+        "tag": "work_environment",
+        "patterns": ["How can I create an effective work environment at home?", "Tips for setting up a home office", "Help with home office setup", "How to improve my remote work environment"],
+        "responses": [
+            "Creating an effective home office involves setting up a dedicated workspace, ensuring good lighting, and investing in ergonomic furniture. Keep your workspace organized and free from distractions.",
+            "To improve your remote work environment, choose a quiet, comfortable space, equip it with necessary tools and technology, and make sure it's ergonomically designed to support long hours of work."
+        ]
+    },
+    {
+        "tag": "feedback",
+        "patterns": ["I want to leave feedback", "Give feedback", "Provide feedback", "How do I give feedback?"],
+        "responses": [
+            "We value your feedback! Please share your thoughts or suggestions about the remote work productivity bot, and we will use them to improve our service.",
+            "You can leave feedback by contacting us via email or filling out the feedback form on our website. Your input helps us enhance our support."
+        ]
+    },
+    {
+        "tag": "fallback",
+        "patterns": ["", "I don't understand", "Can you help?", "What?", "Sorry, I didn't get that"],
+        "responses": [
+            "Sorry, I didn't understand that. Could you please rephrase or provide more details?",
+            "I'm here to help! Please ask your question again or let me know how I can assist you better."
+        ]
+    },
+    {
+        "tag": "help",
+        "patterns": [
+            "Help",
+            "What can you do?",
+            "List functionalities",
+            "What can I ask you?",
+            "Show me commands"
+        ],
+        "responses": [
+            "I can assist with various aspects of remote work and productivity. Here are the topics I can help with:",
+            "- **Time Management**: Tips and strategies for managing your time effectively.",
+            "- **Work-Life Balance**: Advice on maintaining a healthy balance between work and personal life.",
+            "- **Distraction Management**: Techniques for minimizing and managing distractions while working remotely.",
+            "- **Productivity Tools**: Recommendations for tools and software to boost your productivity.",
+            "- **Remote Team Collaboration**: Best practices for effective communication and collaboration with remote teams.",
+            "- **Setting Goals**: Guidance on setting and achieving your work and personal goals.",
+            "- **Work Environment**: Tips for creating and optimizing a productive remote work environment.",
+            "If you need help with any of these topics, just let me know!"
+        ]
+    }
+    
 ]
